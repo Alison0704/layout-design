@@ -1,0 +1,29 @@
+site_name: Electronics and Layout Design
+theme:
+  name: material
+  palette:
+    - scheme: dracula
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+    - scheme: slate
+      primary: teal
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+nav:
+  - Home: index.md
+  - Electronics and Circuit basics: basics.md
+  - Semiconductor Theory: semi.md
+  - VLSI: vlsi.md
+  - Microwave circuit: micro.md
+  - PCB Design: pcb.md
+
+
