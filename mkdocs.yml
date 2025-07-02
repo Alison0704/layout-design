@@ -18,12 +18,62 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
+
 nav:
   - Home: index.md
-  - Electronics and Circuit basics: basics.md
-  - Semiconductor Theory: semi.md
-  - VLSI: vlsi.md
-  - Microwave circuit: micro.md
-  - PCB Design: pcb.md
-
+  - Circuit theory:
+      - DC Analysis: basics/dc-analysis.md
+      - AC Analysis: basics/ac-analysis.md
+      - Circuit Theorems: basics/circuit-theorems.md
+      - RL and RC Circuits: basics/rl-rc-circuits.md
+  - AC Concepts:
+      - Phasors & Sinusoids: ac-concepts/phasors.md
+      - Impedance & Power: ac-concepts/impedance-power.md
+      - Measurement Tools & CAD: ac-concepts/instruments-tools.md
+  - Advanced Analysis:
+      - RLC Transients: advanced/rlc-transients.md
+      - Laplace Methods: advanced/laplace.md
+      - Filters & Frequency Response: advanced/filters.md
+      - Transfer Functions: advanced/transfer-functions.md
+  - Networks & Magnetics:
+      - Two-Port Networks: networks/two-port.md
+      - Mutual Inductance & Transformers: networks/transformers.md
+  - Semiconductors:
+      - Physics of Semiconductors: semiconductors/physics.md
+      - Diodes and Applications: semiconductors/diodes.md
+      - Bipolar Junction Transistors (BJTs): semiconductors/bjts.md
+      - Field-Effect Transistors (FETs): semiconductors/fets.md
+      - CAD Tools for Circuit Design: semiconductors/cad-tools.md
+  - Digital Circuits:
+      - Logic Circuit Basics: digital/logic-circuits.md
+      - BJT Inverter: digital/bjt-inverter.md
+      - CMOS Inverter: digital/cmos-inverter.md
+      - Propagation Delay in CMOS: digital/propagation-delay.md
+      - CMOS Gates and Digital Circuits: digital/cmos-gates.md
+      - Semiconductor Power Devices: digital/power-devices.md
+  - Analog Amplifiers:
+      - Differential Amplifiers: amplifiers/diff-amps.md
+      - Multistage Amplifiers & Frequency Response: amplifiers/multistage.md
+      - Feedback Topologies: amplifiers/feedback.md
+      - Stability & Frequency Compensation: amplifiers/stability.md
+      - Output Stages & Power Amplifiers: amplifiers/power-amps.md
+      - CAD Analysis of Amplifiers: amplifiers/ic-analysis.md
+  - Operational Amplifiers:
+      - Ideal Op-Amps: opamps/ideal-opamp.md
+      - Instrumentation Amps & Sensors: opamps/instrumentation-amps.md
+      - Op-Amp Applications: opamps/applications.md
+      - ADC and DAC Circuits: opamps/adc-dac.md
+  - Power Electronics:
+      - Power Electronics Overview: power-electronics/overview.md
+      - AC-DC Converters: power-electronics/acdc.md
+      - DC-DC Converters: power-electronics/dcdc.md
+      - DC-AC Converters: power-electronics/dcac.md
+  - MEMS & NEMS Devices:
+      - MEMS/NEMS Design: mems/design.md
+      - Modeling & Analysis: mems/modeling.md
+      - Fabrication Techniques: mems/fabrication.md
+      - Applications: mems/applications.md
+  - Projects:
+      - Microwave Amplifier: projects/microwave-amp.md
+      - Memory Array VLSI: projects/mem-array.md
 
